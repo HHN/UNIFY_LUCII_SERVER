@@ -17,7 +17,7 @@ Lucii showcases how AI on Edge and the Matrix protocol can bring together the ri
 
 </p>
 
-# Lucii
+# Lucii Server
 
 ## Getting Started
 
