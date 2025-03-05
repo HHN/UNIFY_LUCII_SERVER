@@ -18,6 +18,8 @@ Lucii showcases how AI on Edge and the Matrix protocol can bring together the ri
 </p>
 
 # Lucii Server
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHHN%2FUNIFY_LUCII_SERVER.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHHN%2FUNIFY_LUCII_SERVER?ref=badge_shield)
+
 
 ## Getting Started
 
@@ -30,6 +32,9 @@ Lucii showcases how AI on Edge and the Matrix protocol can bring together the ri
 
 ## License
 - This project is licensed under [Apache 2.0](LICENSE). Copyright 2024 , Hochschule Heilbronn.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHHN%2FUNIFY_LUCII_SERVER.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FHHN%2FUNIFY_LUCII_SERVER?ref=badge_large)
 
 ## Acknowledgments
 
