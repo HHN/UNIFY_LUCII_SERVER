@@ -2,3 +2,4 @@ matrix-nio
 quart
 matrix-synapse
 requests
+Flask
