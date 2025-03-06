@@ -18,11 +18,104 @@ Lucii showcases how AI on Edge and the Matrix protocol can bring together the ri
 </p>
 
 # Lucii Server
+Matrix Dendrite & Anonymous Matching Bot
+
+Lucii Server enables decentralized anonymous messaging and matchmaking with:
+
+Matrix Dendrite – A lightweight homeserver for secure, encrypted messaging.
+
+Python Matrix Bot – Manages anonymous research matching and chat room creation.
+
+
+Key Features
+
+AI-Powered Anonymous Matchmaking – Users are connected based on research interests while remaining anonymous.
+
+Decentralized Messaging – All communications are end-to-end encrypted via Matrix Dendrite.
+
+Automated Chat Room Management – The bot creates and moderates secure discussion spaces.
+
+No Centralized Storage – All interactions remain private, with no central database storing messages.
+
+
+
+---
+
 
 ## Getting Started
 
---todo:  content for this section
+Prerequisites
 
+Before setting up the Lucii Server, ensure you have:
+
+Python 3.8+ installed
+
+Matrix Dendrite Server (see Matrix Dendrite Docs)
+
+Flask and nio-matrix installed
+
+
+Installation & Setup
+
+1. Clone the Repository:
+
+git clone <Lucii-server-repo-link>
+cd Lucii-server
+
+
+2. Install Dependencies:
+
+pip install -r requirements.txt
+
+
+3. Configure the Bot in config.json:
+
+{
+    "matrix_server": "https://matrix.lucii.com",
+    "bot_username": "@bot_user:matrix.lucii.com",
+    "bot_password": "securepassword",
+    "all_user_ids": ["@userA:matrix.lucii.com", "@userB:matrix.lucii.com"]
+}
+
+
+4. Run the Lucii Bot:
+
+python bot.py
+
+
+
+
+---
+
+Bot Usage
+
+Commands
+
+Register Research Interests:
+
+!register AI, NLP, Federated Learning
+
+Find Matches:
+
+!findmatch
+
+Create an Event:
+
+{
+  "name": "AI Ethics Panel",
+  "details": "Discussion on AI and privacy",
+  "keywords": ["AI", "Privacy"],
+  "creator": "@userA:matrix.lucii.com",
+  "is_group": true
+}
+
+Reply Anonymously:
+
+reply:event_12345: I'm interested in discussing AI ethics!
+
+
+
+---
 
 
 
